@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #151515, #281903);
+    height: 100vh; 
+  }
+
+/*Header*/
+  .header {
+    margin: 15px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #232323; */
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .logo span {
+    margin-left: 7rem;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .btn.login {
+    background-color: #333;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .btn-exit {
+    background-color: #ffcc00;
+    color: black;
+    margin-right: 7rem;
+  }
+
+  .btn-exit:hover{
+    background-color: #bc9602ac;
+  }
+/*Header*/
+
+/*Form*/
+.form-container{
+    width: 720px;
+    margin: 2% auto;
+    background: #fffffffd;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 4rem;
+}
+
+.form-title-h2{
+    font-weight: 600;
+}
+
+.form-title-h4{
+    font-size: 16px;
+    margin-bottom: 2rem;
+}
+
+.form-label{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.form-control{
+    font-size: 13px;
+}
+
+.form-select{
+    font-size: 13px;
+}
+
+.form-check-label{
+    font-size: 14px;
+}
+
+/* Estilo para los mensajes de éxito y error */
+.alert {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 5px;
+  z-index: 999;
+  opacity: 1;
+  animation: fadeOut 5s forwards; /* Animación de desvanecimiento */
+}
+
+/* Animación de desvanecimiento */
+@keyframes fadeOut {
+  0% {
+      opacity: 1; /* Al principio es completamente visible */
+  }
+  80% {
+      opacity: 1; /* Mantiene la opacidad al 100% durante unos segundos */
+  }
+  100% {
+      opacity: 0; /* Se desvanece completamente */
+  }
+}
+
+/* Estilo para mensajes de éxito */
+.alert-success {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Estilo para mensajes de error */
+.alert-danger {
+  background-color: #dc3545;
+  color: white;
+}
+/*Form*/
+  
+  
+  
