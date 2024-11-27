@@ -1,11 +1,10 @@
-body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(45deg, #151515, #281903);
+body{
     height: 100vh; 
+    margin: 0; 
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #151515, #281903); 
 }
 
-/*Header*/
 .header {
     margin: 15px;
     height: 50px;
@@ -15,7 +14,6 @@ body {
     /* background-color: #232323; */
     color: white;
     padding: 10px 20px;
-    margin-bottom: 15rem;
   }
   
   .logo span {
@@ -27,10 +25,6 @@ body {
     border-radius: 3px;
   }
 
-  .nav{
-    margin-right: 40rem;
-  }
-  
   .nav a {
     color: white;
     text-decoration: none;
@@ -62,26 +56,19 @@ body {
     margin-right: 5px;
   }
   
-  .btn.signup {
+  .btn-exit {
     background-color: #ffcc00;
     color: black;
     margin-right: 7rem;
   }
-/*Header*/
 
-.icono {
-    color: #ffffff; /* Cambia el color al azul */
-    transition: color 0.3s ease; /* Agrega una animación suave */
-}
+  .btn-exit:hover{
+    background-color: #bc9602ac;
+  }
 
-.icono:hover {
-    color: #0056b3; /* Cambia a un tono más oscuro al pasar el mouse */
-}
-
-.iconos-container{
-    margin-top: 4rem;
-}
-
-h3{
-    color: white;
+.video-container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-top: 6rem;
 }
